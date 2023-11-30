@@ -1,0 +1,688 @@
+/* ==================================================
+                   Font Link Start
+====================================================*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+/* ==================================================
+                   Font Link End
+====================================================*/
+
+/* ==================================================
+                   Common Css Start
+====================================================*/
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+li,
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+ul,
+div,
+img,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --footerHeaderColor: #1c1e53;
+  --primaryTextColor: #282938;
+  --secondaryBgColor: #eef4fa;
+  --yellow: #fcd980;
+  --white: #fff;
+}
+
+/* ==================================================
+                   Common Css End
+====================================================*/
+
+/* ==================================================
+                   Nav part Css Start
+====================================================*/
+#nav-part {
+  background-color: var(--footerHeaderColor);
+  padding: 20px 0;
+}
+
+#nav-part .custome-nav ul li a {
+  color: #bbbbcb;
+  font-size: 16px;
+  font-weight: 500;
+  padding-right: 32px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+#nav-part .custome-nav ul li a:hover {
+  color: var(--white);
+}
+
+#nav-part .custome-nav .btn button {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 41px;
+  border: 2px solid #f4f6fc33;
+  padding: 16px 48px;
+  margin-left: 40px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+#nav-part .custome-nav .btn button:hover {
+  background-color: var(--yellow);
+  color: black;
+}
+
+.custome-nav button {
+  background-color: var(--yellow);
+  outline: 0;
+  border: 0;
+}
+
+/* ==================================================
+                   Nav part Css End
+====================================================*/
+
+/* ==================================================
+                   About part Css Start
+====================================================*/
+#about-part {
+  padding: 128px 0;
+}
+
+#about-part .about-left-part h5 {
+  color: var(--primaryTextColor, #282938);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#about-part .about-left-part h1 {
+  color: var(--primaryTextColor, #282938);
+  font-size: 51px;
+  font-weight: 600;
+  line-height: 74px;
+  padding-top: 8px;
+  padding-bottom: 31px;
+}
+
+#about-part .about-left-part p {
+  color: var(--primaryTextColor, #282938);
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+
+#about-part .about-right-part picture img {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/* ==================================================
+                   About part Css End
+====================================================*/
+
+/* ==================================================
+                   Goal part Css Start
+====================================================*/
+#goal-part {
+  background-color: var(--secondaryBgColor);
+  padding: 80px 0;
+}
+
+#goal-part .goal-content h6 {
+  color: var(--primaryTextColor, #282938);
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 8px;
+  line-height: none;
+}
+
+#goal-part .goal-content h2 {
+  color: var(--primaryTextColor, #282938);
+  font-size: 35px;
+  font-weight: 600;
+  padding-bottom: 16px;
+}
+
+#goal-part .goal-content p {
+  color: var(--primaryTextColor, #282938);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-right: 20px;
+}
+
+#goal-part .goal-content-right {
+  margin-top: 28px;
+}
+/* ==================================================
+                   Goal part Css End
+====================================================*/
+
+/* ==================================================
+                   Process part Css Start
+====================================================*/
+#process-part {
+  padding: 128px 0;
+}
+
+#process-part .process-heading h2 {
+  color: var(--primaryTextColor, #282938);
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 48px;
+}
+
+#process-part .process-content .line img {
+  position: relative;
+  margin-left: 38px;
+}
+
+#process-part .round {
+  width: 24px;
+  height: 24px;
+  background-color: #2405f2;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+}
+
+#process-part .process-content .process-text h3 {
+  margin-top: 32px;
+  color: var(--primaryTextColor, #282938);
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 8px;
+}
+
+#process-part .process-content .process-text p {
+  color: var(--primaryTextColor, #282938);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+/* ==================================================
+                   Process part Css End
+====================================================*/
+
+/* ==================================================
+                  Misson part Css Start
+====================================================*/
+#misson-part {
+  padding: 128px 0;
+  background-color: #eef4fa;
+}
+
+#misson-part .first-left-text h5 {
+  color: var(--primaryTextColor, #282938);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#misson-part .first-left-text h3 {
+  color: var(--primaryTextColor, #282938);
+  font-size: 38px;
+  font-weight: 600;
+  padding: 16px 0;
+}
+
+#misson-part .first-left-text p {
+  color: var(--primaryTextColor, #282938);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-right: 46px;
+}
+
+#misson-part .second-line {
+  margin-top: 96px;
+}
+
+#misson-part .second-line .first-left-text {
+  margin-left: 55px;
+}
+
+#misson-part .second-line .first-left-text p {
+  padding: 0;
+}
+/* ==================================================
+                  Misson part Css End
+====================================================*/
+
+/* ==================================================
+                  Benefit part Css Start
+====================================================*/
+#benefit-part {
+  padding: 128px 0;
+}
+
+#benefit-part .benefit-heading h3 {
+  color: var(--primaryTextColor, #282938);
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 48px;
+  line-height: 65px;
+  padding: 0 276px;
+}
+
+#benefit-part .benefit-box {
+  background-color: #f4f6fc;
+  padding-top: 50px;
+  padding-bottom: 48px;
+  padding-left: 48px;
+  padding-right: 33px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  cursor: pointer;
+}
+
+#benefit-part .benefit-box h3 {
+  color: var(--primaryTextColor, #282938);
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 26px;
+  padding-bottom: 12px;
+}
+
+#benefit-part .benefit-box p {
+  color: var(--primaryTextColor, #282938);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+
+#benefit-part .benefit-box:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transform: translateY(6%);
+  -webkit-transform: translateY(6%);
+  -moz-transform: translateY(6%);
+  -ms-transform: translateY(6%);
+  -o-transform: translateY(6%);
+}
+
+#benefit-part .user-part {
+  margin-top: 50px;
+}
+
+#benefit-part .user-part .user-count h4 {
+  color: var(--primaryTextColor, #282938);
+  font-size: 38px;
+  font-weight: 600;
+}
+
+#benefit-part .user-part .user-count p {
+  color: var(--primaryTextColor, #282938);
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+/* ==================================================
+                  Benefit part Css End
+====================================================*/
+
+/* ==================================================
+                  Team part Css Start
+====================================================*/
+#team-part {
+  background-color: #f4f6fc;
+  padding: 128px 0;
+}
+
+#team-part .team-heading {
+  color: var(--primaryTextColor, #282938);
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 48px;
+}
+
+#team-part .person {
+  background-color: #fff;
+  padding: 0 48px;
+  padding-top: 48px;
+  padding-bottom: 32px;
+  cursor: pointer;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  margin-right: 20px;
+}
+
+#team-part .person:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+#team-part .person h3 {
+  color: var(--primaryTextColor, #1d2130);
+  font-size: 24px;
+  padding-bottom: 2px;
+  font-weight: 500;
+  padding-top: 30px;
+}
+
+#team-part .person p {
+  color: var(--primaryTextColor, #1d2130);
+  font-size: 15px;
+  opacity: 0.7;
+  font-weight: 400;
+}
+
+#team-part .person-img {
+  cursor: pointer;
+}
+
+#team-part .person-img .hover {
+  top: 0;
+  left: 3px;
+  width: 168px;
+  height: 168px;
+  background: linear-gradient(
+    348deg,
+    #5239fa 17.97%,
+    rgba(255, 255, 255, 0) 79.2%
+  );
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  opacity: 0;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+#team-part .person-img:hover .hover {
+  opacity: 1;
+}
+
+#team-part .person-img .hover .team-icon {
+  bottom: 22px;
+  left: 44px;
+}
+
+#team-part .person-img .hover .team-icon a {
+  color: #ffffff;
+  padding-right: 5px;
+  display: inline-block;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+#team-part .person-img .hover .team-icon a i {
+  margin-left: 5px;
+  margin-top: 4px;
+}
+
+#team-part .person-img .hover a:nth-child(1):hover {
+  color: #3b5998;
+  background-color: #fff;
+}
+
+#team-part .person-img .hover a:nth-child(2):hover {
+  color: #ffffff;
+  background-color: #00acee;
+}
+
+#team-part .person-img .hover a:nth-child(3):hover {
+  color: #0a66c2;
+  background-color: #ffffff;
+}
+
+/* ==================================================
+                  Team part Css End
+====================================================*/
+
+/* ==================================================
+                  Footer part Css Start
+====================================================*/
+#footer-part {
+  background-color: var(--footerHeaderColor);
+  padding-top: 100px;
+}
+
+#footer-part .footer-left p {
+  color: var(--white, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  padding-top: 22px;
+  opacity: 0.8;
+  padding-bottom: 86px;
+  padding-right: 20px;
+}
+
+#footer-part .footer-left .footer-contact {
+  background-color: var(--yellow);
+  padding: 18px 0;
+  padding-left: 37px;
+  column-gap: 29px;
+}
+
+#footer-part .footer-left .footer-contact .email h3 {
+  color: var(--primaryTextColor, #282938);
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 1px;
+}
+
+#footer-part .footer-left .footer-contact .email a {
+  color: var(--primaryTextColor);
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 0.8;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+#footer-part .footer-left .footer-contact .email a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+#footer-part .footer-right h3 {
+  color: var(--white);
+  font-size: 48px;
+  font-weight: 600;
+}
+
+#footer-part .footer-right p {
+  color: #f4f6fc;
+  font-size: 16px;
+  opacity: 0.8;
+  font-weight: 400;
+  line-height: 28px;
+  padding-top: 14px;
+  padding-bottom: 28px;
+}
+
+#footer-part .footer-right .footer-icon a {
+  color: red;
+  display: inline-block;
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 15px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+#footer-part .footer-right .footer-icon a:nth-child(1) {
+  color: #3b5998;
+}
+
+#footer-part .footer-right .footer-icon a:nth-child(2) {
+  color: #00acee;
+}
+
+#footer-part .footer-right .footer-icon a:nth-child(3) {
+  color: #fc6363;
+}
+
+#footer-part .footer-right .footer-icon a:nth-child(4) {
+  color: #0a66c2;
+}
+
+#footer-part .footer-right .footer-icon a i {
+  line-height: 30px;
+}
+
+#footer-part .footer-right .footer-icon a:nth-child(1):hover {
+  color: #fff;
+  background-color: #3b5998;
+  transform: translateY(-25%);
+  -webkit-transform: translateY(-25%);
+  -moz-transform: translateY(-25%);
+  -ms-transform: translateY(-25%);
+  -o-transform: translateY(-25%);
+}
+
+#footer-part .footer-right .footer-icon a:nth-child(2):hover {
+  color: #fff;
+  background-color: #00acee;
+  transform: translateY(-25%);
+  -webkit-transform: translateY(-25%);
+  -moz-transform: translateY(-25%);
+  -ms-transform: translateY(-25%);
+  -o-transform: translateY(-25%);
+}
+
+#footer-part .footer-right .footer-icon a:nth-child(3):hover {
+  color: #fff;
+  background-color: #fc6363;
+  transform: translateY(-25%);
+  -webkit-transform: translateY(-25%);
+  -moz-transform: translateY(-25%);
+  -ms-transform: translateY(-25%);
+  -o-transform: translateY(-25%);
+}
+
+#footer-part .footer-right .footer-icon a:nth-child(4):hover {
+  color: #fff;
+  background-color: #0a66c2;
+  transform: translateY(-25%);
+  -webkit-transform: translateY(-25%);
+  -moz-transform: translateY(-25%);
+  -ms-transform: translateY(-25%);
+  -o-transform: translateY(-25%);
+}
+/* ==================================================
+                  Footer part Css End
+====================================================*/
+
+/* ==================================================
+                  last-nav-part Css Start
+====================================================*/
+
+#last-nav-part {
+  padding: 25px 0;
+}
+
+#last-nav-part .nav-logo {
+  color: var(--primaryTextColor);
+  font-size: 16px;
+  font-weight: 500;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+#last-nav-part .nav-logo:hover {
+  color: #00acee;
+}
+
+#last-nav-part .custome-nav {
+  column-gap: 25px;
+}
+
+#last-nav-part .custome-nav a {
+  color: black;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+#last-nav-part .custome-nav a:hover {
+  color: #00acee;
+}
+
+.custom button {
+  background-color: var(--yellow);
+  border: 0;
+  outline: 0;
+}
+
+/* ==================================================
+                  last-nav-part Css End
+====================================================*/

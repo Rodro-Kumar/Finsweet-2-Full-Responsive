@@ -1,0 +1,383 @@
+/* ===============================================
+                     Md Device
+=================================================*/
+
+@media (max-width: 991.98px) {
+  /* ================= Nav ================ */
+
+  .custome-nav .custome-menu a {
+    background-color: #0a66c265;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+    padding: 8px 0;
+  }
+
+  #nav-part .custome-nav .btn button {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .custom .custome-nav a {
+    background-color: rgba(222, 184, 135, 0.295);
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+
+  /* ================= About Part Start =============== */
+  #about-part .about-left-part h1 {
+    font-size: 48px;
+
+    padding-bottom: 21px;
+  }
+
+  #about-part .about-left-part p {
+    font-size: 14px;
+
+    line-height: 24px;
+
+    margin-bottom: 27px;
+  }
+  /* ================= About Part End ================ */
+
+  /* ================ Goal Part Start ================= */
+  .goal-content {
+    margin-left: 51px;
+  }
+
+  #goal-part .goal-content h6 {
+    font-size: 14px;
+  }
+  #goal-part .goal-content h2 {
+    font-size: 32px;
+  }
+  /* ================ Goal Part End ================= */
+
+  /* ============== Proccess Part Start ============== */
+  #process-part .process-heading h2 {
+    font-size: 40px;
+  }
+  #process-part .process-content .process-text h3 {
+    margin-top: 20px;
+  }
+  #process-part .process-content .process-text p {
+    font-size: 13px;
+  }
+
+  #process-part .process-content .line img {
+    margin-left: 37px;
+    width: 187px;
+  }
+
+  #process-part .process-content .process-text .p4 {
+    margin-left: -87px;
+  }
+
+  /* ============== Proccess Part End ============== */
+
+  /* ============= Missson Part Start ============== */
+
+  #misson-part {
+    padding: 60px 0;
+  }
+  #misson-part .first-left-text h3 {
+    font-size: 35px;
+  }
+
+  #misson-part .first-left-text p {
+    font-size: 13px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+
+  #misson-part .second-line .first-left-text {
+    margin-left: 0;
+  }
+
+  #misson-part .first-left-text h5 {
+    margin-top: 24px;
+  }
+  /* ============= Missson Part End ============== */
+
+  /* ============= Benefit Part Start ============== */
+  #benefit-part .benefit-heading h3 {
+    font-size: 38px;
+
+    padding: 0px 102px;
+  }
+
+  #benefit-part .benefit-box p {
+    font-size: 12px;
+
+    padding: 0 109px;
+  }
+
+  #benefit-part .benefit-box {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  /* ============= Benefit Part End ============== */
+
+  /* ============ User part start =============== */
+  #benefit-part .user-part .user-count h4 {
+    font-size: 32px;
+  }
+
+  #benefit-part .user-part .user-count p {
+    font-size: 13px;
+  }
+  /* ============ User part End =============== */
+
+  /* ============ Team Part Start ============= */
+
+  #team-part .person-img .hover {
+    left: 229px;
+  }
+
+  #team-part .person {
+    margin-right: 0;
+  }
+
+  /* ============ Team Part End ============= */
+
+  /* ============ Footer part Start ========= */
+
+  #footer-part {
+    padding-top: 78px;
+    padding-bottom: 73px;
+  }
+  #footer-part .footer-left p {
+    font-size: 12px;
+
+    padding-bottom: 48px;
+    padding-right: 0;
+  }
+
+  #footer-part .footer-left .footer-contact {
+    padding-left: 0;
+
+    justify-content: center;
+  }
+
+  #footer-part .footer-right h3 {
+    font-size: 41px;
+  }
+
+  #footer-part .footer-right p {
+    font-size: 12px;
+
+    padding-top: 5px;
+    padding-bottom: 26px;
+  }
+  /* ============ Footer part End ========= */
+}
+
+/* =================================================================
+                              Sm Device
+====================================================================*/
+
+@media (max-width: 767.98px) {
+  /* -============= About Part STart ============== */
+
+  .custome-nav {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #about-part {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #about-part .about-left-part h5 {
+    font-size: 15px;
+  }
+
+  #about-part .about-left-part h1 {
+    font-size: 40px;
+    line-height: 59px;
+  }
+
+  #about-part .about-left-part p {
+    font-size: 13px;
+  }
+
+  /* -============= About Part End ============== */
+
+  /* ============== Goal Part Start ========== */
+
+  #goal-part .goal-content h6 {
+    font-size: 11px;
+  }
+
+  #goal-part .goal-content h2 {
+    font-size: 30px;
+  }
+
+  #goal-part .goal-content p {
+    font-size: 12px;
+  }
+
+  /* ============== Goal Part End ========== */
+
+  /* ============ Procces Part Start ========-= */
+
+  #process-part .process-heading h2 {
+    font-size: 34px;
+  }
+
+  #process-part .process-content .process-text p {
+    font-size: 12px;
+
+    padding-right: 48px;
+  }
+
+  #process-part .process-content .process-text h3 {
+    margin-top: 18px;
+
+    font-size: 22px;
+  }
+
+  #process-part .process-content .line img {
+    margin-left: 34px;
+    width: 153px;
+  }
+
+  /* ============ Procces Part End ========-= */
+
+  /* ============ Misson Part STart ============ */
+  #misson-part .first-left-text h5 {
+    font-size: 14px;
+  }
+
+  #misson-part .first-left-text h3 {
+    font-size: 30px;
+  }
+
+  #misson-part .first-left-text p {
+    font-size: 11px;
+  }
+  /* ============ Misson Part End ============ */
+
+  /* ========== Benefit Part STart =============== */
+  #benefit-part .benefit-heading h3 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #benefit-part .benefit-box h3 {
+    font-size: 21px;
+  }
+
+  #benefit-part .benefit-box p {
+    font-size: 12px;
+    padding: 0 15px;
+  }
+
+  #benefit-part .benefit-box img,
+  svg {
+    width: 22px;
+  }
+  /* ========== Benefit Part STart =============== */
+
+  /* =========== Team part Start ============ */
+
+  #team-part .person-img .hover {
+    left: 128px;
+  }
+
+  #team-part .person h3 {
+    font-size: 21px;
+  }
+
+  #team-part .person p {
+    font-size: 13px;
+  }
+
+  #team-part .person {
+    margin-right: 0;
+  }
+
+  /* =========== Team part End ============ */
+
+  /* ============  Footer Part Start =========== */
+  #footer-part .footer-left p {
+    font-size: 10px;
+    padding-bottom: 35px;
+    padding-top: 16px;
+  }
+
+  #footer-part .footer-left .footer-contact .email h3 {
+    font-size: 16px;
+  }
+
+  #footer-part .footer-left .footer-contact .email a {
+    font-size: 12px;
+  }
+
+  #footer-part .footer-right h3 {
+    font-size: 35px;
+    padding-top: 25px;
+  }
+
+  #footer-part .footer-right p {
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 26px;
+    padding: 0 96px;
+  }
+
+  /* ============  Footer Part End =========== */
+}
+
+/* ==================================================================
+                                Xs Device
+====================================================================*/
+
+@media (max-width: 575.98px) {
+  .process-content {
+    text-align: center;
+  }
+  .user-part {
+    text-align: center;
+  }
+  .user-partner {
+    padding-top: 20px;
+  }
+  .misson-part {
+    padding-left: 20px;
+  }
+  #benefit-part .benefit-heading h3 {
+    font-size: 21px;
+    line-height: 30px;
+    padding: 0;
+  }
+  .footer-left {
+    text-align: center;
+  }
+  .footer-right {
+    text-align: center;
+  }
+  #footer-part .footer-right p {
+    font-size: 8px;
+    margin-top: 5px;
+    margin-bottom: 26px;
+    padding: 0 57px;
+    text-align: center;
+  }
+
+  #footer-part .footer-right h3 {
+    font-size: 30px;
+    padding-top: 25px;
+    text-align: center;
+  }
+}
